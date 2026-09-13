@@ -16,6 +16,9 @@ fuera cualquier detalle obvio ya visible en el propio código (como el listado
 completo de archivos), notas puntuales de esta tarea y cualquier dato
 sensible — solo quedó lo que realmente ahorra tiempo en una sesión nueva.
 
+
+
+
 ## .claude/settings.json
 
 Se le pidió explícitamente a Claude que generara la configuración de permisos

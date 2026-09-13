@@ -16,6 +16,7 @@
       "Read(./.env)",
       "Bash(git push --force:*)",
       "Bash(rm -rf:*)"
+      
     ]
   }
 }
