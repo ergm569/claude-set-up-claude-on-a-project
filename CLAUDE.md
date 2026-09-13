@@ -17,8 +17,6 @@ npm test         # runs tests (node:test)
 npm run lint     # eslint
 ```
 
-
-
 Run a single test file: `node --test tests/users.test.js`
 
 ## Architecture
@@ -35,5 +33,5 @@ Run a single test file: `node --test tests/users.test.js`
 ## Conventions
 
 - CommonJS (`require`/`module.exports`), not ESM.
-- Route handlers stay thin: validation + calling `db/store.js`, no business
-  logic embedded in `routes/`.
+- Use thin route handlers, not business logic in `routes/`: handlers only
+  validate input and call `db/store.js`.
